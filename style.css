@@ -6,6 +6,50 @@
 
 body {
   font-family: "Raleway", sans-serif;
+  background-color: #736cc1;
+  height: 60%;
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+.header__img {
+  width: 40%;
+}
+.header__img__title {
+  text-align: center;
+  margin: 3%;
+  color: wheat;
+}
+
+.form {
+  display: grid;
+  display: flex;
+  flex-direction: column;
+  margin-left: 15%;
+  column-gap: 5%;
+  width: 70%;
+}
+.form__label {
+  gap: 3%;
+  width: 100%;
+  font-size: 2em;
+}
+.form__label__input {
+  padding: 1%;
+  border: 1px solid rgb(235, 160, 133);
+}
+
+.button {
+  margin: 5%;
+  margin-left: 40%;
+  padding: 1%;
+  width: 15%;
+  background-color: rgb(152, 96, 75);
+  border: none;
 }
 
 /*# sourceMappingURL=style.css.map */
